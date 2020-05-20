@@ -128,56 +128,56 @@ bool Game::validLocation(int loc, char mark){
     bool valid = false;
     switch(loc){
         case 1:
-        if(boardGame[0][0] = '*'){
+        if(boardGame[0][0] == '*'){
             boardGame[0][0] = mark;
             valid = true;
         }
         
         break;
         case 2:
-        if(boardGame[0][1] = '*'){
+        if(boardGame[0][1] == '*'){
             boardGame[0][1] = mark;
             valid = true;
         }
         break;
         case 3:
-        if(boardGame[0][2] = '*'){
+        if(boardGame[0][2] == '*'){
             boardGame[0][2] = mark;
             valid = true;
         }
         break;
         case 4:
-        if(boardGame[1][0] = '*'){
+        if(boardGame[1][0] == '*'){
             boardGame[1][0] = mark;
             valid = true;
         }
         break;
         case 5:
-        if(boardGame[1][1] = '*'){
+        if(boardGame[1][1] == '*'){
             boardGame[1][1] = mark;
             valid = true;
         }
         break;
         case 6:
-        if(boardGame[1][2] = '*'){
+        if(boardGame[1][2] == '*'){
             boardGame[1][2] = mark;
             valid = true;
         }
         break;
         case 7:
-        if(boardGame[2][0] = '*'){
+        if(boardGame[2][0] == '*'){
             boardGame[2][0] = mark;
             valid = true;
         }
         break;
         case 8:
-        if(boardGame[2][1] = '*'){
+        if(boardGame[2][1] == '*'){
             boardGame[2][1] = mark;
             valid = true;
         }
         break;
         case 9:
-        if(boardGame[2][2] = '*'){
+        if(boardGame[2][2] == '*'){
             boardGame[2][2] = mark;
             valid = true;
         }
